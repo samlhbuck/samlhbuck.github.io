@@ -6,7 +6,7 @@ html {
 body{
   display: flex;
   flex-direction: column;
-  font-family: helvetica, arial, sans;
+  font-family: 'Roboto', helvetica, arial, sans;
   min-height: 100vh;
 }
 .content-container {
@@ -146,7 +146,7 @@ p {
 .hero-content h1 {
   color: #fff;
   font-size: 4vw;
-  font-weight: 500;
+  font-weight: 100;
   margin-bottom: 0.25em;
 }
 .hero-content .social-link {
@@ -198,6 +198,9 @@ p {
   font-size: 3vw;
   text-transform: uppercase;
   padding-top: 10px;
+}
+.callout-copy {
+  font-weight: 300;
 }
 .home-callout h3 {
   margin: 1em 0 .5em 0;
